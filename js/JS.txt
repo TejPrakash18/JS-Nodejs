@@ -1,0 +1,3 @@
+JavaScript is a programming language that allows developers to create interactive web pages. It's a core technology of the World Wide Web and is used to:
+JavaScript is a lightweight, interpreted language with a syntax based on Java and C. It supports object-oriented, imperative, and declarative programming styles.
+JavaScript is used in many non-browser environments, including: Node.js, Apache CouchDB, and Adobe Acrobat.
