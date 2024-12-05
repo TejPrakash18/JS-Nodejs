@@ -15,3 +15,12 @@ let user = "Tej"
 console.log("number + string",number+user)
 console.log("number * string",number*user)
 console.log("string + string",user+user)
+
+// expression 
+console.log("Solve an expression: ",5+3*8/2)
+
+
+console.log(5!=5)
+console.log(10==10)
+console.log(5!=='5')
+console.log(5===5)
