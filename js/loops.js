@@ -42,3 +42,9 @@ for(let i=1; i<=10; i++){
     console.log(i);
 
 }
+
+let user = "tejupadhyay"
+
+for (const x of user){
+    console.log(x)
+}
