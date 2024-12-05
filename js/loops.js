@@ -12,3 +12,33 @@ const cars = ["Mahindra BE 6e", "BMW", "Honda"];
 for (const element of cars) {
     console.log(element)
 }
+
+
+// while or do-while loops
+let i = 1;
+while(i<=10){
+    console.log(i)
+    i++;
+}
+
+let number = 5
+do{
+    console.log(number);
+}while(number >= 6);
+
+// break and conditinue keyword
+
+for(let i=1; i<=10; i++){
+    console.log(i);
+    if(i==5){
+        break;
+    }
+}
+
+for(let i=1; i<=10; i++){
+    if(i==5){
+        continue;
+    }
+    console.log(i);
+
+}
