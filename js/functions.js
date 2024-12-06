@@ -54,3 +54,11 @@ function fetchData(fetch){
 }
 
 fetchData(data => console.log(data));
+
+function calculateCartPrize(...numbers){
+    const total = numbers.reduce((acc, curr) => acc + curr, 0);
+
+    return total;
+}
+
+console.log(calculateCartPrize(200,300,600,700,900))
