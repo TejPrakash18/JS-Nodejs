@@ -4,9 +4,14 @@
   "description": "",
   "main": "webServer.js",
   "scripts": {
-    "start": "node webServer" 
-
+    "start": "nodemon webServer"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
 }
