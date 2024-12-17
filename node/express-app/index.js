@@ -1,12 +1,21 @@
 const express = require('express');
 
 const app = express();
+
+app.use(express.json());
+
 const PORT = 3000;
 
 
 app.get('/',(req,res) =>{
     res.setHeader("Contant-Type", "application/json")
     res.status(200).send(JSON.stringify({title:"Home", message:"hello, this is home page"}));
+})
+
+app.post('/', (req, res)=>{
+    const {name} = req.body;
+    
+    res.send(`Welcome ${name}`);
 })
 
 
