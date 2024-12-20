@@ -11,9 +11,9 @@ app.use(bodyParser.json());
 
 app.get('/data', dataController.getData);
 app.post('/data', dataController.postData);
-// app.get('/data/:id',dataController.getByIdData);
-// app.put('/data/:id',dataController.updateData);
-// app.delete('/data/:id', dataController.deleteData);
+app.get('/data/:id',dataController.getDataById);
+app.put('/data/:id',dataController.updateDataById);
+app.delete('/data/:id', dataController.deleteDataById);
 
 app.listen(PORT, ()=>{
     console.log('server is running....!', PORT)
