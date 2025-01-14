@@ -6,7 +6,7 @@
 
 |Name |Quantity|
 |----------|---|
-|JAvaScript|20 |
+|JavaScript|20 |
 |Node.js   |20 |
 |Backend   |20 |
 
@@ -23,9 +23,9 @@
     Variables are used to store data values in JavaScript. You can declare variables using var, let, and const.
     
     ```js
-    let name = 'John';
-    const age = 30;
-    var city = 'New York';
+    let name = 'Neha';
+    const age = 21;
+    var city = 'Hathras';
     ```
 
 3. **What is the difference between let, const, and var?**
