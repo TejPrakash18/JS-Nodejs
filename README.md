@@ -80,7 +80,7 @@
       callback();
     }
     
-    greet('John', function() {
+    greet('Neha', function() {
       console.log('Callback function executed!');
     });
     ```
@@ -170,9 +170,9 @@
     Destructuring allows unpacking values from arrays or objects into distinct variables.
 
     ```js
-    const person = { name: 'John', age: 30 };
+    const person = { name: 'Neha', age: 21 };
     const { name, age } = person;
-    console.log(name, age); // John 30
+    console.log(name, age); // Neha 21
     ```
 
 17. **What is the spread operator in JavaScript?**
@@ -349,8 +349,8 @@
     You can use the `JSON.parse()` method to convert JSON strings into JavaScript objects and `JSON.stringify()` to convert objects to JSON strings.
 
     ```js
-    let obj = JSON.parse('{"name": "John"}');
-    console.log(obj.name); // John
+    let obj = JSON.parse('{"name": "Neha"}');
+    console.log(obj.name); // Neha
     ```
 
 20. **What is the purpose of the process object in Node.js?**
