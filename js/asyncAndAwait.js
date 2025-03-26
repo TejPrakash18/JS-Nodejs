@@ -1,12 +1,12 @@
 async function fetchData(userName) {
-    const response = await fetch(`https://api.github.com/users/${userName}`)
+    const response = await fetch(`https://api.github.com/users/TejPrakash18`)
     const data = await response.json();
     const follower = data.followers;
     const publicrepo = data.public_repos;
 
     console.log("followers", follower)
     console.log("repos", publicrepo)
-    console.log(data)   
+    // console.log(data)   
 }
 
 
@@ -29,4 +29,4 @@ console.log(1);
 getData1();
 console.log(2);
 
-fetchData("Tejprakash18");
+fetchData();
